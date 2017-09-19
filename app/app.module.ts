@@ -19,10 +19,5 @@ export * from './components/breadcrumbService'
     ]
 })
 export class Ng2BreadcrumbModule {
-    static forRoot(): ModuleWithProviders {
-        return {
-            ngModule: Ng2BreadcrumbModule,
-            providers: [BreadcrumbService]
-        };
-    }
+    
 }
